@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css?family=Righteous&display=swap');
+
+header .logo {
+    font-family: 'Righteous', cursive;
+    font-size: 4rem;
+    text-align: center;
+    margin: 0;
+
+}
+
+header .top-menu {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+    padding: 0;
+    align-items: flex-start;
+/*}
+header .menu-left {
+    list-style-type: none;
+    justify-content: space-around;
+    flex:star;
+
+}*/
