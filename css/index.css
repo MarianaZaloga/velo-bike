@@ -3,8 +3,9 @@
 header .logo {
     font-family: 'Righteous', cursive;
     font-size: 4rem;
-    text-align: center;
-    margin: 0;
+    text-align: right;
+    margin:0;
+    font-language-override: right;
 
 }
 
@@ -14,10 +15,4 @@ header .top-menu {
     justify-content: space-around;
     padding: 0;
     align-items: flex-start;
-/*}
-header .menu-left {
-    list-style-type: none;
-    justify-content: space-around;
-    flex:star;
 
-}*/
