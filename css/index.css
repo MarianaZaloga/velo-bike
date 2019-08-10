@@ -1,18 +1,67 @@
 @import url('https://fonts.googleapis.com/css?family=Righteous&display=swap');
 
+body  {
+    max-width: 980;
+    margin: auto;
+}
+
 header .logo {
     font-family: 'Righteous', cursive;
     font-size: 4rem;
-    text-align: right;
-    margin:0;
-    font-language-override: right;
+    margin: 10px;
+    width: 250px;
+    float: right;
 
 }
 
-header .top-menu {
-    display: flex;
-    list-style-type: none;
-    justify-content: space-around;
-    padding: 0;
-    align-items: flex-start;
+.top-menu {
+  list-style: none; /*убираем маркеры списка*/
+  margin: 0; /*убираем отступы*/
+  padding-left: 0; /*убираем отступы*/
+  margin-top:25px; /*делаем отступ сверху*/
+}
 
+a {
+  text-decoration: none; /*убираем подчеркивание текста ссылок*/
+  background:#30A8E6; /*добавляем фон к пункту меню*/
+  color:#fff; /*меняем цвет ссылок*/
+  padding:10px; /*добавляем отступ*/
+  font-family: arial; /*меняем шрифт*/
+  border-radius:4px; /*добавляем скругление*/
+}
+
+ a:hover {
+  background:#1C85BB;/*добавляем эффект при наведении*/
+}
+
+li {
+  float:left; /*Размещаем список горизонтально для реализации меню*/
+  margin-right:5px; /*Добавляем отступ у пунктов меню*/
+}
+
+.right-menu {
+  list-style: none; /*убираем маркеры списка*/
+  margin: 0; /*убираем отступы*/
+  padding-right: 0; /*убираем отступы*/
+  justify-content: flex-end;
+  float: right;
+
+}
+
+@media (min-width: 550 px) {
+    header nav {
+        display: flex;
+    }
+    header .menu {
+        flex: 1;
+    }
+}
+
+img {
+    padding-left: 0;
+    margin: 20px;
+    width: 300px;
+    justify-content: left;
+    display: block;
+    float:left;
+}
