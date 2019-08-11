@@ -9,7 +9,7 @@
 </head>
 <body>
     <header>
-    <nav>
+      <nav>
             <ul class="top-menu">
                <li><a href="home"> Головна</a></li>
                <li><a href="payment"> Оплата та доставка</a></li>
@@ -20,51 +20,51 @@
                <li><a href="enter"> Вхід </a></li>
                <li><a href="registration"> Реєстрація </a></li><br>
             </ul>
-            <br>
+      </nav>
+    </header>
+    <div class="container">
+    <br>
             <img src="image/velo.jpg" alt="Blue bike" >
             <p class="logo">VELOBike</p>
-    </nav>
-    </header>
-    <blockquote style="blackground-color: #000000; border: 3px #000000 solid; padding: 20px; margin: 10px 700px 200px 460px; ">
+    <blockquote class ="ramka">
             <h3>
                +38(067)902-66-23<br>
                +38(050)858-69-27<br>
                +38(050)607-53-94
             </h3>
     </blockquote>
-         <form>
-              Пошук по сайту
+       <form class="pursuit">
+              Пошук по сайту <br>
               <input type="search" name="search">
               <input type="submit">
-         </form>
-         <br>
-         <br>
-         <nav>
-             <button value="menu" style="width:12%">Дитячі велосипеди </button>
-             <button value="menu" style="width:12%">Підліткові</button>
-             <button value="menu" style="width:12%">Гірські</button>
-             <button value="menu" style="width:12%">Шосейні</button>
-         </nav>
-             <br>
-             <fieldset>
-                  <img src="image/main-foto.jpg" alt="Two bike and nature" width="1350" height="500">
-                  <br>
-             </fieldset>
-             <figure>
-                  <img src="image/children.jpg" alt="Bike for children">
-                       <figcaption>
-                             <a href="children.html"> Дитячі велосипеди
-                              </a>
-                       </figcaption>
-             </figure>
-             <figure>
-                  <img src="image/teenager.jpg" alt="Bike for teenager" >
-                       <figcaption>
-                             <a href="силка"> Підліткові велосипеди
-                             </a>
-                       </figcaption>
-             </figure>
-             <figure>
+        </form>
+    </div>
+    <nav>
+           <br>
+           <ul class="second-menu">
+             <li><a href = "Дитячі велосипеди"> Дитячі велосипеди </a> </li>
+             <li><a href = "Підліткові">Підліткові</a></li>
+             <li><a href = "Гірські" > Гірські</a></li>
+             <li><a href = "Шосейні">Шосейні </a></li>
+           </ul>
+    </nav>
+    <main>
+             <div class="baner"></div>
+             <div class="product-list">
+                   <article class="product">
+                      <h3>Дитячі велосипеди.</h3>
+                         <img src="image/children.jpg" alt="children bike">
+                         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. </p>
+                         <div class="product-buttons">
+                            <button class="button card-button">Корзина</button>
+                            <button class="button card-button">Купити</button>
+                         </div>
+                    </article>
+             </div>
+    </main>
+
+
+            <!-- <figure>
                  <img src="image/adults.jpg" alt="Bike for adults" width="200" height="200">
                        <figcaption>
                            <a href="силка"> Дорослі велосипеди
@@ -117,7 +117,7 @@
                            <textarea name="message">
                            </textarea><br>
                      <input type="submit" value="Надіслати">
-             </form>
+             </form> -->
 
     </body>
 </html>
