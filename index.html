@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="uk">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -18,7 +18,7 @@
             </ul>
             <ul class="right-menu">
                <li><a href="enter"> Вхід </a></li>
-               <li><a href="registration"> Реєстрація </a></li><br>
+               <li><a href="registration"> Реєстрація </a></li>
             </ul>
       </nav>
     </header>
@@ -109,25 +109,46 @@
                   Крім того, це екологічний вид транспорту, який ніяк не забруднює навколишнє середовище!
              </fieldset>
              <br>
-             <fieldset
+             <fieldset>
                   <h4>
                       Відгуки покупців.
                   </h4>
              </fieldset>
              <br>
-             Напишіть нам:<br>
-             <form>
-                  Ваше ім'я:<br>
-                     <input type="text"> <br>
-                  Ваш email:<br>
-                     <input type="text"><br>
-                       Ваше повідомлення:<br>
-                           <textarea name="message">
-                           </textarea><br>
-                     <input type="submit" value="Надіслати">
-             </form>
+             <div class="timestamp"></div>
              <br>
-             <h2> Ми знаходимось. </h2>
-             <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d12396.480766870036!2d24.070904793971714!3d49.79440826140369!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2sua!4v1565590114973!5m2!1sru!2sua" width="400" height="250" frameborder="0" style="border:0" allowfullscreen></iframe>
+             <h3> Напишіть нам:<br>
+             </h3>
+             <section>
+                 <h1> JSON </h1>
+                 <p> Client name: <span class="client-name"> </span></p>
+                 <p> Accont balance: <span class="account-balance"> </span></p>
+             </section>
+             <button class="ajax-json"> AJAX </button>
+             <button class="fetch-json">FETCH </button><br>
+             <br>
+             <section>
+                     <form class="login-form">
+                          <label>
+                               Ваше ім'я: <input type="text" name="name">
+                          </label>
+                     <br><br>
+                          <label>
+                               Ваш e-mail: <input type="email" name="email">
+                          </label> <br><br>
+                          <label>
+                           Ваше повідомлення:<br><br></label>
+                          <textarea id="message" name="message">
+                          </textarea>
+
+                          <br>
+                    <input type="submit">
+                    </form>
+            </section>
+            <br>
+            <h2> Ми знаходимось. </h2>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d12396.480766870036!2d24.070904793971714!3d49.79440826140369!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2sua!4v1565590114973!5m2!1sru!2sua" width="400" height="250" frameborder="0" style="border:0" allowfullscreen>
+            </iframe>
+    <script src="js/index.js"></script>
     </body>
 </html>
